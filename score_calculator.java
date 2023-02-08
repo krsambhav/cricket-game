@@ -1,11 +1,9 @@
-import java.util.List;
-
 public class score_calculator {
 
 
     void calculate(team t) {
         int player_number = 0, balls = 0;
-        ball_predictor predictor_obj = new ball_predictor();
+        BallPredictor predictor_obj = new BallPredictor();
         t.get_player_info();
 
         display_result display_obj = new display_result();
